@@ -1,0 +1,9 @@
+C:\Users\Profil\Documents\OEMInformation\OEMInformation\OEMInformation\OEMInformation\bin\Debug\OEMInformation.exe.config
+C:\Users\Profil\Documents\OEMInformation\OEMInformation\OEMInformation\OEMInformation\bin\Debug\OEMInformation.exe
+C:\Users\Profil\Documents\OEMInformation\OEMInformation\OEMInformation\OEMInformation\bin\Debug\OEMInformation.pdb
+C:\Users\Profil\Documents\OEMInformation\OEMInformation\OEMInformation\OEMInformation\obj\Debug\OEMInformation.csprojAssemblyReference.cache
+C:\Users\Profil\Documents\OEMInformation\OEMInformation\OEMInformation\OEMInformation\obj\Debug\OEMInformation.Main.resources
+C:\Users\Profil\Documents\OEMInformation\OEMInformation\OEMInformation\OEMInformation\obj\Debug\OEMInformation.Properties.Resources.resources
+C:\Users\Profil\Documents\OEMInformation\OEMInformation\OEMInformation\OEMInformation\obj\Debug\OEMInformation.csproj.GenerateResource.cache
+C:\Users\Profil\Documents\OEMInformation\OEMInformation\OEMInformation\OEMInformation\obj\Debug\OEMInformation.exe
+C:\Users\Profil\Documents\OEMInformation\OEMInformation\OEMInformation\OEMInformation\obj\Debug\OEMInformation.pdb
