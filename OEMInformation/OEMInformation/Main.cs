@@ -12,6 +12,8 @@ namespace OEMInformation
 {
     public partial class Main : Form
     {
+        OpenFileDialog openFileDialog;
+        OEMInformation oemInformation;
         public Main()
         {
             InitializeComponent();
@@ -19,20 +21,31 @@ namespace OEMInformation
 
         private void Main_Load(object sender, EventArgs e)
         {
-
+            oemInformation = new OEMInformation();
         }
 
         private void buttonLogo_Click(object sender, EventArgs e)
         {
-            var openFileDialog = new OpenFileDialog();
-
+            openFileDialog = new OpenFileDialog();
             openFileDialog.Filter = "*.bmp|*.bmp";
-
             openFileDialog.ShowDialog();
 
+            if (string.IsNullOrWhiteSpace(openFileDialog.FileName)) return;
+            
             pictureBoxLogo.Image = Image.FromFile(openFileDialog.FileName);
-            
-            
+        }
+
+        private void buttonSaveChanges_Click(object sender, EventArgs e)
+        {
+            oemInformation.Logo = openFileDialog.FileName;
+            oemInformation.Manufacturer = textBoxManufacturer.Text;
+            oemInformation.Model = textBoxModel.Text;
+            oemInformation.SupportHours = textBoxSupportHours.Text;
+            oemInformation.SupportPhone = textBoxSupportPhone.Text;
+            oemInformation.SupportURL = textBoxSupportURL.Text;
+            oemInformation.SaveChanges();
+
+            MessageBox.Show("Done");
         }
     }
 }
