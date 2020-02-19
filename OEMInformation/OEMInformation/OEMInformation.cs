@@ -36,7 +36,7 @@ namespace OEMInformation
             if (!string.IsNullOrWhiteSpace(Model)) registryKey.SetValue("Model", Model);
             if (!string.IsNullOrWhiteSpace(SupportHours)) registryKey.SetValue("SupportHours", SupportHours);
             if (!string.IsNullOrWhiteSpace(SupportPhone)) registryKey.SetValue("SupportPhone", SupportPhone);
-            if (!string.IsNullOrWhiteSpace(SupportURL)) registryKey.SetValue("SupporURL", SupportURL);
+            if (!string.IsNullOrWhiteSpace(SupportURL)) registryKey.SetValue("SupportURL", SupportURL);
 
             registryKey.Close();
         }

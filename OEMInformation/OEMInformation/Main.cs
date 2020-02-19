@@ -22,11 +22,12 @@ namespace OEMInformation
         private void Main_Load(object sender, EventArgs e)
         {
             oemInformation = new OEMInformation();
+            openFileDialog = new OpenFileDialog();
         }
 
         private void buttonLogo_Click(object sender, EventArgs e)
         {
-            openFileDialog = new OpenFileDialog();
+            
             openFileDialog.Filter = "*.bmp|*.bmp";
             openFileDialog.ShowDialog();
 
